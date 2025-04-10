@@ -6,6 +6,7 @@
 
 ## Alunos
 |Matrícula | Aluno |
+| -- | -- |
 | 20/2015868  |  Alexandre Lema Xavier Júnior |
 | 21/1039671  |  Pedro Lopes da Cunha |
 
