@@ -23,7 +23,7 @@ bool dfs(int** graph, int* colors, int node, int color, int* graphColSize) {
 bool isBipartite(int** graph, int graphSize, int* graphColSize) {
     int* colors = (int*)malloc(sizeof(int) * graphSize);
     for (int i = 0; i < graphSize; i++) {
-        colors[i] = -1;  // -1: not colored yet
+        colors[i] = -1;  
     }
 
     for (int i = 0; i < graphSize; i++) {

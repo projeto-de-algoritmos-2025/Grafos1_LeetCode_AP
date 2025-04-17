@@ -30,9 +30,14 @@ https://github.com/user-attachments/assets/71e6d0f4-1c5a-4323-a677-6f7b46639537
 
 
 
-### [785 - Média](https://leetcode.com/problems/is-graph-bipartite/submissions/1609926793/)
+### [785 - Média](https://leetcode.com/problems/is-graph-bipartite/description/)
+Verifiquei se um grafo é bipartido aplicando uma busca em profundidade (DFS) que tenta colorir os nós usando apenas duas cores, de forma alternada(usando um vetor de cores onde cada nó é marcado com 0 ou 1) e a cada passo, os vizinhos recebem a cor oposta. Caso algum vizinho já tenha sido colorido com a mesma cor do nó atual, o grafo não é bipartido (retorna false). Como o grafo pode ter componentes desconexas, percorri todos os nós, iniciando a DFS apenas nos que ainda não estavam coloridos. No final, a função retorna verdadeiro apenas se for possível bipartir todas as componentes do grafo.
+
 
 ![Print da Resolução 785](/assets/img785.png)
+
+
+https://github.com/user-attachments/assets/8749378c-ea33-4058-b2ed-f2e802faa3fa
 
 
 
