@@ -23,7 +23,16 @@ Implementei uma busca em profundidade (DFS) para explorar todos os caminhos poss
 ![Print da Resolução 2065](/assets/img2065.png)
 
 
+obs: a marca d'água presente no vídeo é referente ao site que foi utilizado para comprimir o arquivo
 
+https://github.com/user-attachments/assets/71e6d0f4-1c5a-4323-a677-6f7b46639537
+
+
+
+
+### [785 - Média](https://leetcode.com/problems/is-graph-bipartite/submissions/1609926793/)
+
+![Print da Resolução 785](/assets/img785.png)
 
 
 
