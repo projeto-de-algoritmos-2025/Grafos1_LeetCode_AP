@@ -40,6 +40,13 @@ Verifiquei se um grafo é bipartido aplicando uma busca em profundidade (DFS) qu
 https://github.com/user-attachments/assets/8749378c-ea33-4058-b2ed-f2e802faa3fa
 
 
+### [1857 - Dificil](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/)
+Comecei construindo o grafo com uma lista de adjacência e calculei o grau de entrada de cada nó. Utilizei programação dinâmica para calcular o número de ocorrências de cada cor ao longo dos caminhos. A matriz dp[u][c] armazena quantas vezes a cor c aparece no melhor caminho até o nó u.Para processar o grafo, usei uma ordenação topológica com BFS, onde comecei pelos nós com grau de entrada zero e propaguei os valores de dp para os vizinhos de cada nó. A cada nó processado, mantive o valor máximo de cor encontrado.Ao final, se todos os nós não forem visitados, significa que o grafo contém um ciclo, e o retorno é -1. Caso contrário, retornamos o valor máximo de cor encontrado.
+
+![Print da Resolução 1857](/assets/img1857.jpg)
+
+
+
 
 
 ## Instalação 
