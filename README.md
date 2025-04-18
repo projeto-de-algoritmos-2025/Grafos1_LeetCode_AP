@@ -45,6 +45,8 @@ Comecei construindo o grafo com uma lista de adjacência e calculei o grau de en
 
 ![Print da Resolução 1857](/assets/img1857.jpg)
 
+https://github.com/user-attachments/assets/be5f2322-b240-4b86-a2bb-a8d991b89da8
+
 
 
 
@@ -53,8 +55,6 @@ Comecei construindo o grafo com uma lista de adjacência e calculei o grau de en
 **Linguagem**: C<br>
 
 
-## Outros 
-...
 
 
 
